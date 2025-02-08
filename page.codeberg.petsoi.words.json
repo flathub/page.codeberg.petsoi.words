@@ -31,7 +31,7 @@
                     "type": "shell",
                     "commands": [
                         "mkdir .cargo",
-                        "cp cargo/config .cargo"
+                        "cp cargo/config .cargo "
                     ]
                 }
             ]
