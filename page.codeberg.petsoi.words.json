@@ -24,7 +24,7 @@
                 {
                     "type": "git",
                     "url": "https://codeberg.org/petsoi/words.git",
-                    "tag": "v0.3.5"
+                    "tag": "v0.4.1"
                 },
                 "cargo-sources.json",
                 {
