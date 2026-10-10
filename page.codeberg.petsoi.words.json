@@ -1,7 +1,7 @@
 {
     "id": "page.codeberg.petsoi.words",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "49",
+    "runtime-version": "51",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -24,7 +24,7 @@
                 {
                     "type": "git",
                     "url": "https://codeberg.org/petsoi/words.git",
-                    "tag": "v0.7.9.1"
+                    "tag": "v0.8.0"
                 },
                 "cargo-sources.json",
                 {
@@ -38,3 +38,4 @@
         }
     ]
 }
+
