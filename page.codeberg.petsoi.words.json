@@ -6,7 +6,7 @@
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
     ],
-    "command": "words",
+    "command": "page.codeberg.petsoi.words",
     "finish-args": [
         "--socket=fallback-x11",
         "--socket=wayland",
@@ -24,14 +24,14 @@
                 {
                     "type": "git",
                     "url": "https://codeberg.org/petsoi/words.git",
-                    "tag": "v0.8.0"
+                    "commit": "c198b51a8224034e99bd29edd5fbd3213e8881ca"
                 },
                 "cargo-sources.json",
                 {
                     "type": "shell",
                     "commands": [
                         "mkdir .cargo",
-                        "cp cargo/config .cargo"
+                        "cp cargo/config .cargo/config.toml"
                     ]
                 }
             ]
